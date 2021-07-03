@@ -47,7 +47,7 @@ public Docket swaggerConfiguration() {
 			  .securitySchemes(Arrays.asList(apiKey()))
 			.select()
 			.paths(PathSelectors.ant("/**"))
-			.apis(RequestHandlerSelectors.basePackage("com.softibdashboardmanager.dashboardmanager"))
+			.apis(RequestHandlerSelectors.basePackage("com.softibdashboardmanager"))
 		
 			.build();
 }
