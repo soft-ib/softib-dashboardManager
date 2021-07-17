@@ -25,9 +25,6 @@ On your development/local environment, run the following commands on a terminal:
 > Note: Make sure to install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
 
 ```bash
-# Clone this project and cd into it
-git clone https://github.com/redouane-dev/sync-elasticsearch-mysql.git && cd sync-elasticsearch-mysql
-
 # Start the whole architecture
 docker-compose up # add -d for detached mode
 
