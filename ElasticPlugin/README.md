@@ -1,8 +1,6 @@
 # sync-elasticsearch-mysql
 Using Logstash to synchronize an Elasticsearch index with MySQL data
 
-> This project is described in details in this article: [How to synchronize Elasticsearch with MySQL](https://towardsdatascience.com/how-to-synchronize-elasticsearch-with-mysql-ed32fc57b339)
-
 ## Introduction
 
 This project is a working example demonstrating how to use Logstash to link Elasticsearch to a MySQL database in order to:
