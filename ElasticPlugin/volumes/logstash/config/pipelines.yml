@@ -1,0 +1,18 @@
+# This file is where you define your pipelines. You can define multiple.
+# For more information on multiple pipelines, see the documentation:
+#   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
+
+- pipeline.id: from-scratch-pipeline
+  path.config: "/usr/share/logstash/pipeline/from-scratch.conf"
+
+- pipeline.id: from-scratch-accounts-pipeline
+  path.config: "/usr/share/logstash/pipeline/from-scratch-accounts.conf"
+
+- pipeline.id: all-transaction-pipeline
+  path.config: "/usr/share/logstash/pipeline/all-transaction.conf"
+
+- pipeline.id: all-credit-pipeline
+  path.config: "/usr/share/logstash/pipeline/all-credit.conf"
+
+- pipeline.id: all-payment-pipeline
+  path.config: "/usr/share/logstash/pipeline/all-payments.conf"

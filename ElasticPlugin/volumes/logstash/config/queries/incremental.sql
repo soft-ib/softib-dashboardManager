@@ -1,0 +1,1 @@
+SELECT * FROM dashboard.user_history
